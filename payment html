@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Page</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container my-5">
+        <h2 class="text-center">Your Order</h2>
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>Product</th>
+                    <th>Subtotal</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>BALANCE by FLO Living Supplements - 2 months × 1</td>
+                    <td>$259.00</td>
+                </tr>
+                <tr>
+                    <td class="text-right font-weight-bold">Total</td>
+                    <td class="font-weight-bold">$259.00</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h3 class="my-4">Payment Method</h3>
+        <div class="payment-method">
+            <h5>Credit Card</h5>
+            <div class="card-logos mb-3">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Visa_Inc._logo.svg" alt="Visa" width="50">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/a/a4/Mastercard_2019_logo.svg" alt="MasterCard" width="50">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/c/cd/American_Express_logo_%282018%29.svg" alt="Amex" width="50">
+            </div>
+            <form>
+                <div class="form-group">
+                    <label for="cardNumber">Card Number</label>
+                    <input type="text" class="form-control" id="cardNumber" placeholder="Card Number">
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="expDate">Expiration (MM/YY)</label>
+                        <input type="text" class="form-control" id="expDate" placeholder="MM / YY">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="cvc">Card Security Code</label>
+                        <input type="text" class="form-control" id="cvc" placeholder="CVC">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <input type="checkbox" id="terms">
+                    <label for="terms">I have read and agree to the website <a href="#">terms and conditions</a></label>
+                </div>
+                <button type="submit" class="btn btn-primary btn-block">PLACE ORDER</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
