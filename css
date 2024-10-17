@@ -1,0 +1,51 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.container {
+    max-width: 600px;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.table {
+    margin-bottom: 30px;
+}
+
+.payment-method h5 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.card-logos img {
+    margin-right: 10px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.btn-primary {
+    background-color: #6b2b91;
+    border: none;
+    font-weight: bold;
+}
+
+.btn-primary:hover {
+    background-color: #5a1f79;
+}
+
+label {
+    font-weight: 600;
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+a {
+    color: #6b2b91;
+    text-decoration: underline;
+}
